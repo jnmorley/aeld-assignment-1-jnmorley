@@ -26,6 +26,7 @@ then
 		echo "${filesdir} does not exist or is not a directory"
 	fi
 else
+	# print an error message
 	echo "Not all arguments specified"
 	echo "OVERVIEW:"
 	echo "	prints message including how many files are in the directory and subdirectories specified by filesdir and how many lines does searchstr occur in those files"
